@@ -5,3 +5,29 @@
     gap: 48px 40px;
     margin-bottom: 80px;
 }
+
+@media screen and (max-width: 1279px) {
+    .place {
+        grid-template-columns: 440px 1fr;
+        max-width: 928px;
+        gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        grid-template-columns: 340px 1fr;
+        max-width: 720px;
+        margin-bottom: 73px;
+        gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        max-width: 984px;
+        grid-template-columns: 1fr;
+        gap: 32 0;
+        margin-bottom: 50px;
+    }
+}

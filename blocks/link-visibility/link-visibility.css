@@ -1,0 +1,7 @@
+.link-visibility {
+    transition: opacity 0.2s linear;
+}
+
+.link-visibility:hover {
+    opacity: 0.8;
+}
