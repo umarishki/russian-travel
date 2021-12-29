@@ -1,3 +1,16 @@
 .place__website {
     align-self: flex-end;
 }
+
+@media screen and (max-width: 1023px) {
+    .place__url-heading {
+        width: 352px;
+        line-height: 1.0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__url-heading {
+        width: 288px;
+    }
+}
